@@ -1,0 +1,14 @@
+{
+  "name": "saucedemo-playwright-pom",
+  "version": "1.0.0",
+  "description": "SauceDemo automation test suite using Playwright and Page Object Model",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
